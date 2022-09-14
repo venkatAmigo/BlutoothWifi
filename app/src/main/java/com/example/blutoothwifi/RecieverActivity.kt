@@ -73,7 +73,7 @@ class RecieverActivity : AppCompatActivity() {
             putExtra(BluetoothAdapter.EXTRA_DISCOVERABLE_DURATION,500)
         }
         bluetoothDiscoveryLauncher.launch(bluetoothDiscoverableIntent)
-        AcceptThread().start()
+       // AcceptThread().start()
     }
 
     @RequiresApi(Build.VERSION_CODES.S)
